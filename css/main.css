@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/* html {
+  --background: rgb(255, 255, 255);
+  --primary: #39b4fc;
+  --button: linear-gradient(0deg, rgb(1, 116, 116) 0%, rgb(95, 253, 253) 100%);
+  --shadow: 0 0 3px var(--primary);
+}
+
+
+/* |||||||||||||[ BODY ]||||||||||||| */
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #39b4fc;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  margin-top: 0rem;
+}
+
+/* |||||||||||||[ HEADER ]||||||||||||| */
+
+header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #39b4fc;
+  color: rgb(255, 255, 255);
+  height: 2.5rem;
+  text-align: center;
+
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+}
+
+/* |||||||||||||[ MAIN ]||||||||||||| */
+
+main {
+  background-image: url(../media/fondoNubes.png);
+
+  min-height: 92vh;
+
+  padding-top: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ciudadPrevision {
+  display: flex;
+  gap: 1rem;
+}
+
+#previsionNueveHoras {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  gap: 1rem;
+}
+
+/* |||||||||||||[ FOOTER ]||||||||||||| */
+
+footer {
+  color: rgb(255, 255, 255);
+  background-color: #39b4fc;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+/* |||||||||||||[ MEDIAQ  ]|||||||||||||||||||||||||||||||||||||||||||||| */
+@media (max-width: 821px) {
+  /* |||||||||||||[ BODY ]||||||||||||| */
+  body {
+    font-family: 'Roboto', sans-serif;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    background-color: #39b4fc;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  /* |||||||||||||[ HEADER ]||||||||||||| */
+  header {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #39b4fc;
+    color: rgb(255, 255, 255);
+    height: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  header h1 {
+    text-align: center;
+  }
+  #previsionNueveHoras {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* |||||||||||||[ MAIN ]||||||||||||| */
+  main {
+    background-image: url(../media/fondoNubes.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    margin-top: 1rem;
+    padding: 1rem;
+
+    text-align: center;
+  }
+
+  /* |||||||||||||[ FOOTER ]||||||||||||| */
+
+  footer {
+    color: rgb(255, 255, 255);
+    background-color: #39b4fc;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+  }
+}
